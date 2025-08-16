@@ -1,0 +1,31 @@
+.border {
+  border: 5px solid darkgray;
+  margin: 3px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+.bg_grey {
+  background-color: #2E2D2D;
+}
+.animation{
+  animation: border-anim 3s linear infinite;
+}
+@keyframes border-anim {
+  0% { border-color: #ff007f; }
+  25% { border-color: #00ffe7; }
+  50% { border-color: #6a4cff; }
+  75% { border-color: #ffce00; }
+  100% { border-color: #ff007f; }
+
+
+}
