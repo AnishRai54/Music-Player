@@ -226,4 +226,65 @@ body {
         top: 20px;
     }
 }
+@media (max-width: 768px) {
+    .left{
+        width: 70px;
+        height: auto;
+        
+        
+    }
+        
+    .home ul li{
+        font-size:13px;
+        position: relative;
+        right: 55px;
+        
+        
+    }
+    .logo{
+        height: 70px;
+    }
+    .library{
+        height: 150px;
+        width: 70px;
+    }
+    .detail{
+        position: relative;
+        top: 20px;
+        height: 30px;
+        font-size: 10px;
+        font-weight: 700;
+    }
+    .right{
+        height: auto;
+        
+    }
+       /* .right .playlist {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}*/
+.right .playlist {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns, equal width */
+    gap: 16px; /* spacing between items (adjust as desired) */
+}
+.header button{
+    font-size: 15px;
+    
+}
+.header .nav{
+    font-size: 26px;
+}
+.serach_bar button{
+    font-size: 10px;
+    margin: 3px;
+    
+}
+
+
+}
+
 
